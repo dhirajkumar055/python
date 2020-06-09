@@ -1,0 +1,63 @@
+How to concatenate string of list?
+concat=[i for i in listname]
+
+How to replace in python?
+stringObj.replace("src","dest")
+
+How to use range in reverse or negative direction upto n/2 elements?
+l=[]
+for i in range(-1,-1*(n//2)-1,-1):
+    l.append(i)
+
+How to make list filled with 0's and 25?
+l=[0]*25
+
+How to convert string/chars into integers?
+ord(i)-ord('a')
+
+How to convert integers into chars?
+i=25 #for 'z'
+(chr)(i+ord('a'))
+
+Convert numbers into string?
+str(nums)
+
+Replace only first charcter?
+s.replace('6','9',1)
+
+Learn pandas
+
+Maximum element in column
+res = [max(filter(None, j)) for j in map(None, *test_list)] 
+
+
+How to do deepcopy of objects?
+import copy
+node1=copy.deepcopy.(node) #deep copy
+node1=copy.copy(node1) #shallow copy
+
+How to store default value in dictionary?
+d=defaultdict(list)
+d=defaultdict(lamda: 2)
+
+How to count of a number in list?
+ar.count(number)
+
+How to sort according to second column?
+li=[(1, 0.23),(78, 0.39),(5, 0.27)]
+print sorted(li,key=lambda l:l[1], reverse=True) 
+
+How to append list with 0s?
+a = a + [0]*(maxLen - len(a))
+for i,a in enumerate(li):
+    li[i]=a+[0]*(maxi-len(a))
+
+How to transpose a list li?
+tli=zip(*li)
+for i in tli:
+    print(i)
+
+ToDo
+from functools import lru_cache
+memo = lru_cache(None)
+@memo
