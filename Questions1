@@ -61,3 +61,7 @@ ToDo
 from functools import lru_cache
 memo = lru_cache(None)
 @memo
+
+How to copy python modules?
+Just copy /usr/lib/python2.7/site-packages folder
+
