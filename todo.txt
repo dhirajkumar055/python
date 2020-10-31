@@ -1,0 +1,3 @@
+https://www.w3schools.com/python/python_ref_string.asp
+
+https://docs.python.org/3.6/library/collections.html#collections.OrderedDict
