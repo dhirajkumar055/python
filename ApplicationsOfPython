@@ -1,2 +1,7 @@
 Run a server
 python3 -m http.server 8001 &
+
+Scylla Manager
+Scylla Manager is a product for database operations automation tool for ScyllaDB.
+It can schedule tasks such as repairs and backups.
+Scylla Manager can manage multiple Scylla clusters and run cluster-wide tasks in a controlled and predictable way.
