@@ -7,18 +7,20 @@ class LinkedList:
   def __init__(self):
     self.head=None
     
-  def printList(head):
-    while(head):
-      print(head.data)
-      head=head.next
+  def printList(self):
+  	temp=self.head
+	while temp:
+	  print(temp.data)
+	  temp=temp.next
 
-if __name__==__main__:
-  l=LinkeList()
-  l.head=Node(1)
-  second=Node(2)
-  third=Node(3)
-  l.head.next=second
-  
-  l.printList(l)
-  
-  
+#if __name__==__main__:
+l=LinkedList()
+l.head=Node(1)
+second=Node(2)
+third=Node(3)
+l.head.next=second
+second.next=third
+
+l.printList()
+
+#deSR0m
