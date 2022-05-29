@@ -65,3 +65,12 @@ memo = lru_cache(None)
 How to copy python modules?
 Just copy /usr/lib/python2.7/site-packages folder
 
+How to create graph?
+adjM = [[] for _ in range(n)]
+for a,b in edges:
+    adjM[a].append(b)
+
+How to add edges?
+for edge in edges:
+    g.graph[edge[0]].append(edge[1])
+
